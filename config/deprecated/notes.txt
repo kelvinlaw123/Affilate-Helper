@@ -1,0 +1,36 @@
+// Run this in browser console while on the target page
+(() => {
+    try {
+        // Get all IP addresses
+        const ips = Array.from(document.querySelectorAll('td.show-ip-div'))
+                      .map(ip => ip.textContent.trim());
+        
+        // Get all ports
+        const ports = Array.from(document.querySelectorAll('a[href^="/?port="]'))
+                        .map(port => port.textContent.trim());
+        
+        // Combine into IP:PORT format
+        const proxies = ips.map((ip, index) => 
+            ports[index] ? `${ip}:${ports[index]}` : null
+        ).filter(Boolean);
+        
+        // Create downloadable file
+        const blob = new Blob([proxies.join('\n')], { type: 'text/plain' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'proxies.txt';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        
+        console.log(`✅ Scraped ${proxies.length} proxies!\nDownloaded as proxies.txt`);
+    } catch (error) {
+        console.error('Scraping failed:', error);
+    }
+})();
+
+
+link: 
+https://www.freeproxy.world/?type=https&anonymity=&country=&speed=600&port=&page=1
+https://proxyscrape.com/free-proxy-list

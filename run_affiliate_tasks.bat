@@ -1,12 +1,12 @@
 @echo off
 setlocal enabledelayedexpansion
 
-cd /d "path\to\your\Repo\Affilate Helper"
+cd /d "E:\UTeM\Y3S2\Entrepreneur\Affilate-Helper"
 e:
 
 :: ==== CONFIG ====
 set PYTHON=python
-set BASE_DIR=path\to\your\Repo\Affilate Helper
+set BASE_DIR=E:\UTeM\Y3S2\Entrepreneur\Affilate-Helper\path\to\your\Repo\Affilate Helper
 set LOG_DIR=%BASE_DIR%\Local Run\logs
 set OUTPUT_LOG=%BASE_DIR%\Local Run\log.txt
 set GIT_SCRIPT=%BASE_DIR%\proxy_tools\GitScraping.py

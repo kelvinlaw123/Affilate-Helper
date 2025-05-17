@@ -1,0 +1,13 @@
+2025-05-15 15:55:16,905 - [*] Loaded 35054 total proxies.
+2025-05-15 15:56:12,740 - [✓] Found 5 working proxies.
+2025-05-15 15:56:15,263 - patching driver executable C:\Users\user\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-15 15:56:34,707 -   Successful visits (no error/debug): 0
+
+2025-05-15 15:56:36,601 - patching driver executable C:\Users\user\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-15 15:56:55,872 -   Successful visits (no error/debug): 0
+
+2025-05-15 15:56:57,674 - patching driver executable C:\Users\user\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-15 15:57:16,957 -   Successful visits (no error/debug): 0
+
+2025-05-15 15:57:22,921 - patching driver executable C:\Users\user\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-15 15:57:41,364 - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)': /session/7c1f2f98093e21c6aa6fa42a2315ba1f/source

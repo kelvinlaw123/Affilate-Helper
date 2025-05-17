@@ -34,7 +34,7 @@ INPUT_DIR = "data/input"
 COOKIE_FILE = os.path.join(INPUT_DIR, "hidemyname_cookies.pkl")
 
 webshare_api_key = "20re8ri629n16nk718m1fj61q7busf95b043k0t0"
-webshare_base_url = f"https://proxy.webshare.io/api/v2/proxy/list/download/jrdtdufojdsasvlhuvrftmdnwskxbvgmouoculej/-/any/username/direct/-/"
+webshare_base_url = f"http://proxy.webshare.io/api/v2/proxy/list/download/jrdtdufojdsasvlhuvrftmdnwskxbvgmouoculej/-/any/username/direct/-/"
 
 webshare_headers = {
     "Authorization": f"Token {webshare_api_key}"
@@ -43,7 +43,7 @@ webshare_headers = {
 # Optional: Add filters here
 webshare_params = {
     # "country": "US",           # Uncomment to filter by country
-    # "type": "socks5",          # socks4, socks5, http, https
+    # "type": "socks5",          # socks4, socks5, http, http
     # "mode": "direct"           # direct or rotate
 }
 
@@ -55,7 +55,7 @@ def fetch_from_webshare():
     proxies = set()
     
     try:
-        url = "https://proxy.webshare.io/api/v2/proxy/list/download/jrdtdufojdsasvlhuvrftmdnwskxbvgmouoculej/-/any/username/direct/-/"
+        url = "http://proxy.webshare.io/api/v2/proxy/list/download/jrdtdufojdsasvlhuvrftmdnwskxbvgmouoculej/-/any/username/direct/-/"
         response = requests.get(url, timeout=10)
         response.raise_for_status()
 
@@ -76,7 +76,7 @@ def fetch_from_webshare():
             
 # === API Configuration ===
 proxy_pool_api_key = "d1c268ea5b2b89cd1a5a26936ef545fa"
-proxy_pool_api_url = "https://proxy-pool-api.onrender.com/get_proxy"
+proxy_pool_api_url = "http://proxy-pool-api.onrender.com/get_proxy"
 proxy_titan_api_key = "7kYw6u1Af5QwUexaC7JHgsUUwQtkhsdMffdka7pU0Pg"
 
 api_params = {
@@ -94,51 +94,51 @@ OUTPUT_FILE = os.path.join(INPUT_DIR, "proxies.txt")
 
 # === Public Proxy Sources ===
 urls = [
-    "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt",
-    "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/https/data.txt",
-    "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.txt",
-    "https://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.txt",
-    "https://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
-    "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt",
-    "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks5.txt",
-    "https://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/https.txt",
-    "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5_checked.txt",
-    "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4_checked.txt",
-    "https://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http_checked.txt",
-    "https://raw.githubusercontent.com/mmpx12/proxy-list/master/https.txt",
-    "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt",
-    "https://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt",
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/HTTPS_RAW.txt",
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt",
-    "https://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt",
-    "https://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt",
-    "https://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks4.txt",
-    "https://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks5.txt",
-    "https://raw.githubusercontent.com/thenasty1337/free-proxy-list/main/data/latest/types/http/proxies.txt",
-    "https://raw.githubusercontent.com/thenasty1337/free-proxy-list/main/data/latest/types/socks4/proxies.txt",
-    "https://raw.githubusercontent.com/thenasty1337/free-proxy-list/main/data/latest/types/socks5/proxies.txt",
-    "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/http_proxies.txt",
-    "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/socks4_proxies.txt",
-    "https://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/socks5_proxies.txt",
-    "https://raw.githubusercontent.com/casals-ar/proxy-list/main/http",
-    "https://raw.githubusercontent.com/casals-ar/proxy-list/main/socks4",
-    "https://raw.githubusercontent.com/casals-ar/proxy-list/main/socks5",
-    "https://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/http.txt",
-    "https://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/socks4.txt",
-    "https://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/socks5.txt",
-    "https://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt",
-    "https://raw.githubusercontent.com/r00tee/Proxy-List/main/Https.txt",
-    "https://raw.githubusercontent.com/r00tee/Proxy-List/main/Socks4.txt",
-    "https://raw.githubusercontent.com/r00tee/Proxy-List/main/Socks5.txt",
-    "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/https/https.txt",
-    "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt",
-    "https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt"
+    "http://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt",
+    "http://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/http/data.txt",
+    "http://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks4/data.txt",
+    "http://cdn.jsdelivr.net/gh/proxifly/free-proxy-list@main/proxies/protocols/socks5/data.txt",
+    "http://raw.githubusercontent.com/clarketm/proxy-list/master/proxy-list-raw.txt",
+    "http://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks4.txt",
+    "http://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/socks5.txt",
+    "http://raw.githubusercontent.com/Zaeem20/FREE_PROXIES_LIST/master/http.txt",
+    "http://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks5_checked.txt",
+    "http://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/socks4_checked.txt",
+    "http://raw.githubusercontent.com/MuRongPIG/Proxy-Master/main/http_checked.txt",
+    "http://raw.githubusercontent.com/mmpx12/proxy-list/master/http.txt",
+    "http://raw.githubusercontent.com/mmpx12/proxy-list/master/socks5.txt",
+    "http://raw.githubusercontent.com/mmpx12/proxy-list/master/socks4.txt",
+    "http://raw.githubusercontent.com/roosterkid/openproxylist/main/http_RAW.txt",
+    "http://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS4_RAW.txt",
+    "http://raw.githubusercontent.com/roosterkid/openproxylist/main/SOCKS5_RAW.txt",
+    "http://raw.githubusercontent.com/proxylist-to/proxy-list/main/http.txt",
+    "http://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks4.txt",
+    "http://raw.githubusercontent.com/proxylist-to/proxy-list/main/socks5.txt",
+    "http://raw.githubusercontent.com/thenasty1337/free-proxy-list/main/data/latest/types/http/proxies.txt",
+    "http://raw.githubusercontent.com/thenasty1337/free-proxy-list/main/data/latest/types/socks4/proxies.txt",
+    "http://raw.githubusercontent.com/thenasty1337/free-proxy-list/main/data/latest/types/socks5/proxies.txt",
+    "http://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/http_proxies.txt",
+    "http://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/socks4_proxies.txt",
+    "http://raw.githubusercontent.com/dpangestuw/Free-Proxy/main/socks5_proxies.txt",
+    "http://raw.githubusercontent.com/casals-ar/proxy-list/main/http",
+    "http://raw.githubusercontent.com/casals-ar/proxy-list/main/socks4",
+    "http://raw.githubusercontent.com/casals-ar/proxy-list/main/socks5",
+    "http://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/http.txt",
+    "http://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/socks4.txt",
+    "http://raw.githubusercontent.com/yemixzy/proxy-list/main/proxies/socks5.txt",
+    "http://raw.githubusercontent.com/hendrikbgr/Free-Proxy-Repo/master/proxy_list.txt",
+    "http://raw.githubusercontent.com/r00tee/Proxy-List/main/http.txt",
+    "http://raw.githubusercontent.com/r00tee/Proxy-List/main/Socks4.txt",
+    "http://raw.githubusercontent.com/r00tee/Proxy-List/main/Socks5.txt",
+    "http://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt",
+    "http://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks4/socks4.txt",
+    "http://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/socks5/socks5.txt"
 ]
 
 # === ProxyTitan ===
 def fetch_from_proxytitan():
     print("[*] Fetching from ProxyTitan...")
-    base_url = "https://proxytitan.com/api/v1.0/free/proxies"
+    base_url = "http://proxytitan.com/api/v1.0/free/proxies"
     proxy_types = ["http", "socks4", "socks5"]
     proxies = set()
 
@@ -199,7 +199,7 @@ def fetch_from_proxyscrape():
         options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
         driver = uc.Chrome(options=options, driver_executable_path="/usr/local/bin/chromedriver")
-        driver.get("https://proxyscrape.com/free-proxy-list")
+        driver.get("http://proxyscrape.com/free-proxy-list")
 
         WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.TAG_NAME, "table")))
         time.sleep(2)
@@ -230,7 +230,7 @@ def fetch_from_proxiware():
         options.add_experimental_option("prefs", prefs)
 
         driver = uc.Chrome(options=options, driver_executable_path="/usr/local/bin/chromedriver")
-        driver.get("https://proxiware.com/free-proxy-list")
+        driver.get("http://proxiware.com/free-proxy-list")
         time.sleep(5)
 
         js_script = """

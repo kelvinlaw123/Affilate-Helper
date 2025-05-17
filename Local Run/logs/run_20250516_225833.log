@@ -1,0 +1,20 @@
+2025-05-16 22:58:33,889 - patching driver executable C:\Users\user\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-05-16 22:58:39,008 - [*] Loaded 35054 total proxies.
+2025-05-16 22:59:32,484 - [✓] Found 5 working proxies.
+2025-05-16 22:59:32,620 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-05-16 23:00:04,772 -   Successful visits (no error/debug): 0
+
+2025-05-16 23:00:04,810 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-05-16 23:00:44,013 -   Successful visits (no error/debug): 1
+
+2025-05-16 23:00:44,056 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-05-16 23:01:39,608 -   Successful visits (no error/debug): 2
+
+2025-05-16 23:01:39,645 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-05-16 23:02:17,331 -   Successful visits (no error/debug): 3
+
+2025-05-16 23:02:17,369 - could not detect version_main.therefore, we are assuming it is chrome 108 or higher
+2025-05-16 23:03:08,993 -   Successful visits (no error/debug): 4
+
+2025-05-16 23:03:09,000 - === Run ended ===
+

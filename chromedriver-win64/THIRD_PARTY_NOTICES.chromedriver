@@ -348,7 +348,7 @@ License notice for Abseil
 
                                  Apache License
                            Version 2.0, January 2004
-                        https://www.apache.org/licenses/
+                        http://www.apache.org/licenses/
 
    TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -540,7 +540,7 @@ License notice for Abseil
    you may not use this file except in compliance with the License.
    You may obtain a copy of the License at
 
-       https://www.apache.org/licenses/LICENSE-2.0
+       http://www.apache.org/licenses/LICENSE-2.0
 
    Unless required by applicable law or agreed to in writing, software
    distributed under the License is distributed on an "AS IS" BASIS,
@@ -3780,7 +3780,7 @@ Legal Terms
 
   Our home page can be found at
 
-    https://www.freetype.org
+    http://www.freetype.org
 
 
 --- end of FTL.TXT ---
@@ -3967,7 +3967,7 @@ Chinese/Japanese Word Break Dictionary Data (cjdict.txt)
  # corpora.
  #
  #  * Libtabe (Chinese)
- #    - https://sourceforge.net/project/?group_id=1519
+ #    - http://sourceforge.net/project/?group_id=1519
  #    - Its license terms and conditions are shown below.
  #
  #  * IPADIC (Japanese)
@@ -4134,9 +4134,9 @@ Lao Word Break Dictionary Data (laodict.txt)
  # Copyright (c) 2015 International Business Machines Corporation
  # and others. All Rights Reserved.
  #
- # Project: https://github.com/rober42539/lao-dictionary
- # Dictionary: https://github.com/rober42539/lao-dictionary/laodict.txt
- # License: https://github.com/rober42539/lao-dictionary/LICENSE.txt
+ # Project: http://github.com/rober42539/lao-dictionary
+ # Dictionary: http://github.com/rober42539/lao-dictionary/laodict.txt
+ # License: http://github.com/rober42539/lao-dictionary/LICENSE.txt
  #          (copied below)
  #
  #	This file is derived from the above dictionary version of Nov 22, 2020
@@ -4316,7 +4316,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
 General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with this program; if not, see <https://www.gnu.org/licenses/>.
+along with this program; if not, see <http://www.gnu.org/licenses/>.
 
 As a special exception to the GNU General Public License, if you
 distribute this file as part of a program that contains a
@@ -4567,7 +4567,7 @@ Alliance for Open Media Patent License 1.0
       patent applications, (a) that currently or at any time in the future,
       are owned or controlled by the Licensor, and (b) (i) would be an
       Essential Claim as defined by the W3C Policy as of February 5, 2004
-      (https://www.w3.org/Consortium/Patent-Policy-20040205/#def-essential)
+      (http://www.w3.org/Consortium/Patent-Policy-20040205/#def-essential)
       as if the Specification was a W3C Recommendation; or (ii) are infringed
       by the Reference Implementation.
 
@@ -4599,7 +4599,7 @@ libjpeg-turbo is covered by three compatible BSD-style open source licenses:
   This license covers the TurboJPEG API library and associated programs, as
   well as the build system.
 
-- The [zlib License](https://opensource.org/licenses/Zlib)
+- The [zlib License](http://opensource.org/licenses/Zlib)
 
   This license is a subset of the other two, and it covers the libjpeg-turbo
   SIMD extensions.
@@ -5345,7 +5345,7 @@ mechanisms:
    file.
 
 ==============================================================================
-Legacy LLVM License (https://llvm.org/docs/DeveloperPolicy.html#legacy):
+Legacy LLVM License (http://llvm.org/docs/DeveloperPolicy.html#legacy):
 ==============================================================================
 University of Illinois/NCSA
 Open Source License
@@ -5593,13 +5593,13 @@ Opus is subject to the royalty-free patent licenses which are
 specified at:
 
 Xiph.Org Foundation:
-https://datatracker.ietf.org/ipr/1524/
+http://datatracker.ietf.org/ipr/1524/
 
 Microsoft Corporation:
-https://datatracker.ietf.org/ipr/1914/
+http://datatracker.ietf.org/ipr/1914/
 
 Broadcom Corporation:
-https://datatracker.ietf.org/ipr/1526/
+http://datatracker.ietf.org/ipr/1526/
 
 --------------------
 License notice for Perfetto
@@ -6060,7 +6060,7 @@ License notice for adler2
 --------------------
                               Apache License
                         Version 2.0, January 2004
-                     https://www.apache.org/licenses/LICENSE-2.0
+                     http://www.apache.org/licenses/LICENSE-2.0
 
 TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
 
@@ -6252,7 +6252,7 @@ Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-	https://www.apache.org/licenses/LICENSE-2.0
+	http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,

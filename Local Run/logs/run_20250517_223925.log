@@ -1,0 +1,41 @@
+2025-05-17 22:39:25,512 - [*] Loaded 29769 total proxies.
+2025-05-17 22:40:17,519 - [✓] Found 3 working proxies.
+2025-05-17 22:40:17,615 - ====== WebDriver manager ======
+2025-05-17 22:40:17,615 - ====== WebDriver manager ======
+2025-05-17 22:40:17,615 - ====== WebDriver manager ======
+2025-05-17 22:40:23,301 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,391 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,472 - There is no [win64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-17 22:40:23,472 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,566 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,661 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,693 - WebDriver version 136.0.7103.94 selected
+2025-05-17 22:40:23,693 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-17 22:40:23,693 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-17 22:40:23,725 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,741 - There is no [win64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-17 22:40:23,741 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,757 - Driver downloading response is 200
+2025-05-17 22:40:23,804 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,916 - There is no [win64] chromedriver "136.0.7103.94" for browser google-chrome "136.0.7103" in cache
+2025-05-17 22:40:23,916 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:23,948 - WebDriver version 136.0.7103.94 selected
+2025-05-17 22:40:23,964 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-17 22:40:23,964 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-17 22:40:24,076 - Driver downloading response is 200
+2025-05-17 22:40:24,157 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:24,234 - WebDriver version 136.0.7103.94 selected
+2025-05-17 22:40:24,234 - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-17 22:40:24,250 - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.94/win32/chromedriver-win32.zip
+2025-05-17 22:40:24,298 - Driver downloading response is 200
+2025-05-17 22:40:24,425 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:24,488 - Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-17 22:40:24,520 - Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-17 22:40:24,949 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:40:25,188 - Driver has been saved in cache [C:\Users\user\.wdm\drivers\chromedriver\win64\136.0.7103.94]
+2025-05-17 22:40:48,234 -   Total working proxies: 3
+2025-05-17 22:40:48,234 -   Total visits attempted: 3
+2025-05-17 22:40:48,234 -   Successful visits (no error/debug): 0
+
+2025-05-17 22:40:48,250 - === Run ended ===
+

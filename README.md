@@ -39,8 +39,8 @@ Click the `Fork` button on GitHub and create your own copy of this project.
 Edit the `AffClicker_w_Aiohttp.py` file and set:
 
 ```python
-STARTER_URL = "https://yourdomain.com/start/aff/yourrff"
-TARGET_URL = "https://affiliate.network.com/aff/yourrff"
+STARTER_URL = "http://yourdomain.com/start/aff/yourrff"
+TARGET_URL = "http://affiliate.network.com/aff/yourrff"
 ```
 You can replace "yourrff" in the STARTER_URL and TARGET_URL with your actual referral code.
 
@@ -89,6 +89,7 @@ pip install -r requirements.txt
 ```
 ```bash
 python proxy_tools/GitScraping.py
+python your_script.py --save-cookies
 python AffClicker_w_Aiohttp.py
 ```
 

@@ -1,0 +1,12 @@
+2025-05-17 22:50:35,194 - [*] Loaded 29769 total proxies.
+2025-05-17 22:51:28,681 - [✓] Found 1 working proxies.
+2025-05-17 22:51:28,807 - ====== WebDriver manager ======
+2025-05-17 22:51:32,132 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:51:34,283 - Get LATEST chromedriver version for google-chrome
+2025-05-17 22:51:35,398 - Driver [C:\Users\user\.wdm\drivers\chromedriver\win64\136.0.7103.94\chromedriver-win32/chromedriver.exe] found in cache
+2025-05-17 22:52:26,474 -   Total working proxies: 1
+2025-05-17 22:52:26,474 -   Total visits attempted: 1
+2025-05-17 22:52:26,474 -   Successful visits (no error/debug): 0
+
+2025-05-17 22:52:26,483 - === Run ended ===
+

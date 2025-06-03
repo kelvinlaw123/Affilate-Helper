@@ -44,22 +44,22 @@ if sys.platform.startswith("win"):
     asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
 
 # Config
-STARTER_URL = "https://cikgumall.com/aff/4212"
+STARTER_URL = "https://cikgumall.com/aff/4302"
 PROXY_FILE_PATH = "data/input/proxies.txt"
 LOG_FILE_PATH = "data/logs/valid_proxies_history.txt"
 VISITS_PER_PROXY = 1  # Number of visits per valid proxy with different user-agents
 
 TARGET_URLS = [
-    "https://cikgumall.com/product/tvia-kordial-buah-asli-1-liter/aff/4212",
-    "https://cikgumall.com/product/ryverra-panned-chocolate-40g/aff/4212",
-    "https://cikgumall.com/product/premium-lite-edition-brownies-cookies-cocoa-bakers/aff/4212",
-    "https://cikgumall.com/product/nyambal-sambal-ikan-masin/aff/4212",
-    "https://cikgumall.com/aff/4212",
-    "https://cikgumall.com/product/hotel-toiletries-by-anastays/aff/4212",
-    "https://cikgumall.com/product/mrs-refreshing-scent-mini-pack-10ml/aff/4212",
-    "https://cikgumall.com/product/teega-crispy-machos-salted-100g-2/aff/4212",
-    "https://cikgumall.com/product/estana-tiramisu-choco-dates-milk-chocolate-150g/aff/4212",
-    "https://cikgumall.com/product/estana-bar-chocolate-45g/aff/4212",
+    "https://cikgumall.com/product/tvia-kordial-buah-asli-1-liter/aff/4302",
+    "https://cikgumall.com/product/ryverra-panned-chocolate-40g/aff/4302",
+    "https://cikgumall.com/product/premium-lite-edition-brownies-cookies-cocoa-bakers/aff/4302",
+    "https://cikgumall.com/product/nyambal-sambal-ikan-masin/aff/4302",
+    "https://cikgumall.com/aff/4302",
+    "https://cikgumall.com/product/hotel-toiletries-by-anastays/aff/4302",
+    "https://cikgumall.com/product/mrs-refreshing-scent-mini-pack-10ml/aff/4302",
+    "https://cikgumall.com/product/teega-crispy-machos-salted-100g-2/aff/4302",
+    "https://cikgumall.com/product/estana-tiramisu-choco-dates-milk-chocolate-150g/aff/4302",
+    "https://cikgumall.com/product/estana-bar-chocolate-45g/aff/4302",
 ]
 
 def load_proxies(path):
@@ -82,7 +82,7 @@ async def validate_proxy_async(session, proxy):
         auth = BasicAuth(user, pwd)
         try:
             async with session.get(
-                "https://cikgumall.com/aff/4212",
+                "https://cikgumall.com/aff/4302",
                 proxy=proxy_url,
                 proxy_auth=auth,
                 timeout=aiohttp.ClientTimeout(total=10)
@@ -102,7 +102,7 @@ async def validate_proxy_async(session, proxy):
             proxy_url = f"{scheme}://{ip}:{port}"
             try:
                 async with session.get(
-                    "https://cikgumall.com/aff/4212",
+                    "https://cikgumall.com/aff/4302",
                     proxy=proxy_url,
                     timeout=aiohttp.ClientTimeout(total=10)
                 ) as res:
